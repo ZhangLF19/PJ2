@@ -1,0 +1,60 @@
+html { height: 100%; }
+body {
+    background-size: 100% 100%;
+    background: #3f6f69;
+}
+.login {/*注册界面边框*/
+    margin: 3%  auto auto ;
+    width: 430px;
+    height: 700px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+.logo {
+    background: url("../images/sign up&in/登录.jpg");
+    width: 100px;
+    height: 100px;
+    margin: 20px auto 5px;
+    background-size: 100% 100%;
+}
+.form {/*注册表单*/
+    position: relative;
+    width: 360px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.form input {/*输入*/
+    width: 250px;
+    height: 40px;
+    padding-left: 50px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #fff;
+    background-color: transparent;
+    outline: none;
+}
+.form button {
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    border: 0;
+    font-size: 18px;
+    color: #3f6f69;
+    background-color: #fff;
+}
+
+
+.login ::-webkit-input-placeholder {
+    font-size: 15px; line-height: 1; color: #fff;
+}
+small{
+    color: white;
+}
+
+.bottom{
+    height: 30px;
+    font-size: 15px;
+    color: aliceblue;
+    text-align: center;
+}
